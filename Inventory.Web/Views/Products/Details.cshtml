@@ -1,0 +1,71 @@
+﻿@model Inventory.Web.Models.ProductDetailViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoOfUnit)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NoOfUnit)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReOrderLevel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReOrderLevel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UnitPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedDateTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDateTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedBy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedDateTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedDateTime)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }) |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Inventory
+/IdentityServer/bin/
+/IdentityServer/obj
+/Inventory.Application/bin
+/Inventory.Application/obj
+/Inventory.Domain/bin
+/Inventory.Domain/obj
+/Inventory.Infrastructure/bin
+/Inventory.Infrastructure/obj
+/Inventory.Persistance/bin
+/Inventory.Persistance/obj
+/Inventory.Web/bin
+/Inventory.Web/obj
+/Inventory.Web.Test/bin
+/Inventory.Web.Test/obj
